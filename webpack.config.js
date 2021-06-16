@@ -6,6 +6,7 @@ module.exports = {
   },
 
   devtool: 'source-map',
+  target: 'node',
 
   resolve: {
     extensions: ['', '.webpack.js', '.web.js', '.ts', '.js'],
